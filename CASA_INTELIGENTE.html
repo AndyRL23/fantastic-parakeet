@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Inteligente</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+
+        /* Cambié el color de fondo de la portada a verde oscuro */
+        .cover-page {
+            background-color: #2E7D32; /* Verde oscuro */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+        }
+
+        .cover-page h2 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .cover-page p {
+            font-size: 1.5em;
+            margin: 5px 0;
+        }
+
+        .section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            font-size: 2em;
+            color: #4CAF50;
+        }
+
+        .section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .illustration {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .illustration img {
+            width: 80%;
+            max-width: 600px;
+            border-radius: 8px;
+        }
+
+        .illustration p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        .bibliografia {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .bibliografia h2 {
+            font-size: 2em;
+            color: #4CAF50;
+        }
+
+        .bibliografia ul {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+
+        .bibliografia li {
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2em;
+            }
+
+            .section h2 {
+                font-size: 1.6em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Portada -->
+    <div class="cover-page">
+        <div>
+            <h2>INGENIERÍA ELECTRÓNICA</h2>
+            <p>INDUSTRIA INTELIGENTE SEMESTRE AGOSTO – DICIEMBRE 2024</p>
+            <p><strong>Reporte de Proyecto</strong></p>
+            <p>Profesor: Fátima Maricela García Khols</p>
+            <p>Alumnos: Andy Iván Romo Luria (20151374)</p>
+            <p>Francisco Javier Ibarra Campos (20151379)</p>
+            <p>José Luis Vázquez Delgado (C20151046)</p>
+            <p>Mario Alberto Delgado Martínez (20151343)</p>
+            <p>Fecha: 09/12/2024</p>
+        </div>
+    </div>
+
+    <header>
+        <h1>Proyecto de Casa Inteligente</h1>
+        <p>Explorando la automatización y las tecnologías en el hogar del futuro</p>
+    </header>
+
+    <div class="section">
+        <h2>Introducción</h2>
+        <p>En el marco de la asignatura Industria Inteligente, desarrollamos un proyecto orientado a explorar la integración de tecnologías avanzadas en el ámbito del hogar inteligente. Este proyecto consistió en el diseño y construcción de una maqueta funcional de una casa inteligente, la cual fue programada y manipulada mediante LabVIEW, una herramienta ampliamente utilizada en la automatización industrial y el control de sistemas.</p>
+        <p>La maqueta incorpora componentes clave, como sensores de proximidad para la detección de movimientos, LEDs para la simulación de iluminación inteligente, servomotores para la automatización de puertas y ventanas, una bomba de agua sumergible para la gestión de líquidos, y un Arduino como controlador principal.</p>
+        <a href="#objetivo" class="cta-button">Leer más sobre el objetivo</a>
+    </div>
+
+    <div class="section" id="objetivo">
+        <h2>Objetivo</h2>
+        <p>Desarrollar una maqueta funcional de una casa inteligente controlada mediante LabVIEW, que integre sensores de proximidad, LEDs, servomotores, un Arduino y una bomba de agua sumergible, con el propósito de demostrar la viabilidad y el impacto de la automatización en el ámbito doméstico.</p>
+        <a href="#teoria" class="cta-button">Leer más sobre el marco teórico</a>
+    </div>
+
+    <div class="section" id="teoria">
+        <h2>Marco Teórico</h2>
+        <h3>Introducción a la Automatización</h3>
+        <p>La automatización es la aplicación de tecnología, programas, robótica o procesos para lograr resultados con una intervención humana mínima. Es utilizada en una amplia gama de industrias, desde finanzas hasta atención médica, servicios públicos, y más.</p>
+        <h3>Automatización de Procesos</h3>
+        <p>La automatización de procesos gestiona los procesos empresariales para lograr uniformidad y transparencia. Puede aumentar la productividad y la eficiencia en las empresas, brindando nuevos insights y soluciones.</p>
+        <h3>Casas Inteligentes</h3>
+        <p>Las casas inteligentes son viviendas equipadas con tecnologías que automatizan las instalaciones del hogar para mejorar la comodidad, seguridad y eficiencia energética. Con el Internet de las Cosas (IoT), los dispositivos pueden interactuar entre sí, creando un entorno doméstico autónomo y eficiente.</p>
+        <a href="#desarrollo" class="cta-button">Ver el desarrollo del proyecto</a>
+    </div>
+
+    <div class="section" id="desarrollo">
+        <h2>Desarrollo</h2>
+        
+        <h3>1. Estructura</h3>
+        <p>La estructura está basada en un hogar común de 3 pisos, armada con cortes rectangulares de madera MDF 5.5mm y unidos con travesaños en cada cimiento para un mayor refuerzo. El pegamento blanco es idóneo para pegar todo tipo de maderas, MDF, textiles y superficies porosas, siendo ideal para trabajos manuales en madera.</p>
+        
+        <div class="illustration">
+            <img src="ruta_a_tu_imagen_1.jpg" alt="Construcción de casa inteligente">
+            <p>Ilustración 1: Construcción de casa inteligente (pisos, cimientos, ventanas, etc.).</p>
+        </div>
+
+        <h3>2. Ruteo de Conexiones</h3>
+        <p>Las conexiones de los LEDs van ruteadas en los extremos para una mejor apariencia y estética del proyecto. Están conectados en paralelo con resistencias individuales para un funcionamiento correcto:</p>
+        <ul>
+            <li><strong>Corriente Independiente</strong>: Cada LED tendrá su propia resistencia, limitando la corriente para evitar que uno domine el circuito.</li>
+            <li><strong>Evitar Desbalanceo</strong>: Las resistencias individuales evitan que los LEDs se sobrecarguen debido a pequeñas variaciones en el voltaje de operación.</li>
+        </ul>
+
+        <div class="illustration">
+            <img src="ruta_a_tu_imagen_2.jpg" alt="Ruteo de conexiones">
+            <p>Ilustración 2: Ruteo de conexiones de LEDs.</p>
+        </div>
+
+        <h3>3. Sistema para Puerta Automatizada</h3>
+        <p>El mecanismo para automatizar la puerta simula el funcionamiento de un garaje. El servomotor mg90s se mueve 90° desde su posición inicial (90°) a su posición final (180°).</p>
+
+        <div class="illustration">
+            <img src="ruta_a_tu_imagen_3.jpg" alt="Sistema para puerta automatizada">
+            <p>Ilustración 3: Sistema para puerta automatizada.</p>
+        </div>
+
+        <h3>4. Circuito de Control</h3>
+        <p>Se utilizan dos arduinos independientes para manipular las entradas y salidas del proyecto. Un Arduino recibe señales de entrada (sensor de presencia) y activa las salidas (LEDs y servomotor), mientras que otro activa la bomba sumergible.</p>
+
+        <div class="illustration">
+            <img src="ruta_a_tu_imagen_4.jpg" alt="Circuito de control">
+            <p>Ilustración 4: Circuito de control utilizando dos arduinos.</p>
+        </div>
+
+        <h3>5. Circuito de Potencia</h3>
+        <p>El circuito de potencia conecta las salidas del proyecto y utiliza relevadores para activar y desactivar las cargas necesarias.</p>
+
+        <div class="illustration">
+            <img src="ruta_a_tu_imagen_5.jpg" alt="Circuito de potencia">
+            <p>Ilustración 5: Circuito de potencia con relevadores.</p>
+        </div>
+        
+        <a href="#footer" class="cta-button">Contáctanos para más información</a>
+    </div>
+
+    <div class="section" id="conclusion">
+        <h2>Conclusión</h2>
+        <p>La automatización presentada en el proyecto, como el uso de LEDs controlados por sensores y una bomba de agua eficiente, evidenció cómo las casas inteligentes pueden contribuir significativamente al ahorro energético y al uso responsable de los recursos. Este enfoque no solo mejora la experiencia del usuario, sino que también fomenta prácticas sostenibles que son fundamentales en un contexto global donde la sostenibilidad es prioritaria.</p>
+    </div>
+
+    <!-- Bibliografía -->
+    <div class="bibliografia">
+        <h2>Bibliografía</h2>
+        <ul>
+            <li>¿Qué es la automatización? (2024, julio 16). IBM.com. <a href="https://www.ibm.com/mxes/topics/automation" target="_blank">https://www.ibm.com/mxes/topics/automation</a></li>
+            <li>Segui, P. (2017, octubre 17). Casas inteligentes: Un hogar más cómodo, eficiente y seguro con domótica. OVACEN. <a href="https://ovacen.com/casas-inteligentes/" target="_blank">https://ovacen.com/casas-inteligentes/</a></li>
+        </ul>
+    </div>
+
+    <footer id="footer">
+        <p>&copy; 2024 Proyecto Casa Inteligente | Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
